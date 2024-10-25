@@ -16,4 +16,6 @@ student={
     "units":["programming","calculus","Business statistics"]
 }
 
+#to get the specific unit in the list
+#["name"][index]
 print(student["units"][2])
