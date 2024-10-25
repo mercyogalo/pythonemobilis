@@ -1,5 +1,6 @@
 people=["Mercy", "Linet", "Nancy", "Violet","Alfred","Doe"]
 
+#can have duplicate values
 #the index is just like an array
 print(people[3])
 
