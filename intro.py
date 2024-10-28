@@ -1,3 +1,7 @@
+from functions import add
+from functions import looping
+
+
 name="Mercy Adhiambo  Ogalo"
 school="Jomo Kenyatta University of agrivulture and technology"
 year=2027
@@ -5,13 +9,9 @@ mean_grade="B+"
 course="Business Information Technology"
 
 
+add()
+looping()
 
-
-print(name)
-print(school)
-print(year)
-print(mean_grade)
-print(course)
 
 
 #inbuilt data types(4)

@@ -1,12 +1,12 @@
-maths=40
-eng=40
+#maths=40
+#eng=40
 
-if maths> eng:
-    print("Maths is greater than english")
-elif maths == eng:
-    print("Maths and english are equal")
-else:
-    print("English is greater than maths")
+#if maths> eng:
+ #   print("Maths is greater than english")
+#elif maths == eng:
+#    print("Maths and english are equal")
+#else:
+ #   print("English is greater than maths")
     
 
     
@@ -46,5 +46,17 @@ if squarenum>0:
 else:
     print("Can't find square of 0")
     
-    
-    name=string(input("Enter your name: "))
+ #grading system
+ #0 - 39    D
+#40 - 59   C
+ #60-79  B
+ #80-100 A
+maths=70
+english=80
+kiswahili=60
+science=79
+physic=50
+
+avg=maths+english
+
+
