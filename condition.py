@@ -54,7 +54,7 @@ else:
 
 """
 
-names=["Joseph","Brian","Pearl"]
+names=["Joseph","Brian","Pearl","Gillian"]
 names.append("Mercy")
 
 studentMarks={
