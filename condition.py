@@ -12,23 +12,23 @@
     
     #write a python program that checks whether a number is positive ,negative or 0
     
-number= 0
+#number= 0
 
-if number > 0:
-    print("Number is positive")
+#if number > 0:
+#    print("Number is positive")
     
-elif number < 0:
-    print("Number is negative")
+#elif number < 0:
+  #  print("Number is negative")
     
-else:
-    print("Number is equal to 0")
+#else:
+ #   print("Number is equal to 0")
     
     
     
     
 #program that checks if a number is even or odd
 
-newnum=5
+"""newnum=5
 
 if newnum%2==0:
     print("Number is even ")
@@ -51,12 +51,21 @@ else:
 #40 - 59   C
  #60-79  B
  #80-100 A
-maths=70
-english=80
-kiswahili=60
-science=79
-physic=50
 
-avg=maths+english
+"""
 
+names=["Joseph","Brian","Pearl"]
+names.append("Mercy")
 
+studentMarks={
+    "English": 80
+}
+studentMarks["Kiswahili"]=80
+studentMarks["Maths"]=70
+studentMarks["Physics"]=int(input("Enter your physics marks: "))
+
+total=0
+
+for subject in studentMarks:
+    total+=studentMarks[subject]
+    print(total)
