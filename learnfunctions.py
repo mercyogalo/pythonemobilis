@@ -5,8 +5,15 @@
 #print(average)
 
 
-def calculator(num1 : int , num2 : int):
-    print(f"Perimeter : {2*(num1+ num2)}")
-    print(f"Area: {num1 * num2}")
+#def calculator(num1 : int , num2 : int):
+  #  print(f"Perimeter : {2*(num1+ num2)}")
+  #  print(f"Area: {num1 * num2}")
     
-calculator(2,5)
+#calculator(2,5)
+
+def people(name="Joseph", age=10 ):
+ 
+ return print(f"Hello, i am {name.upper()} and i'm {age} years old") 
+  
+  
+people("Mercy", 20)
