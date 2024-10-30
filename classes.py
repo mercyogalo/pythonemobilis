@@ -7,8 +7,8 @@ class Animal:
     print(my_animal.number)
     print(my_animal.name)
 
-  #  def move(self):
-   #   print("I can walk")
+    def move(self):
+     print("I can walk")
       
  #   class Dog(Animal):
   #      def sound(self):
