@@ -11,9 +11,55 @@
     
 #calculator(2,5)
 
-def people(name="Joseph", age=10 ):
+#def people(name="Joseph", age=10 ):
  
- return print(f"Hello, i am {name.upper()} and i'm {age} years old") 
+# return print(f"Hello, i am {name.upper()} and i'm {age} years old") 
   
   
-people("Mercy", 20)
+#people("Mercy", 20)
+
+
+temperature=0
+
+
+def kelvin(num: int):
+    kelvintemperature=num + 273.15
+    
+    print(f"Temperature in kelvin is {kelvintemperature}")
+    
+    
+def fahrenheit(num: int):
+  fahrenheittemperature=num*(9/5) + 32
+  
+  print(f"Temperature in fahrenheit is { fahrenheittemperature}")
+    
+    
+
+def celcius():
+  global temperature
+  
+temperature=int(input("Enter the temperature: "))
+conversion=str(input("Enter the conversion name: "))
+  
+
+if conversion.lower()=="kelvin":
+      kelvin(temperature)
+elif conversion.lower=="fahrenheit":
+     fahrenheit(temperature)
+else:
+    print("Enter a valid conversion either kelvin or fahrenheit")
+
+
+
+
+
+
+  
+  
+
+ 
+
+
+
+celcius()
+
